@@ -19,11 +19,10 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3 text-">
-        After graduating from High School "Rade Jovcevski-Korcagin" with a major in{" "}
-        <span className="font-medium">Math</span>, I decided to pursue my
-        passion for programming and math. I enrolled in a <span
-          className="font-medium">Brainster Fullstack Academy</span>{" "}
-        and learned <span className="font-medium">full-stack web development</span>.{" "}
+        After graduating from High School "Rade Jovcevski-Korcagin", I decided to pursue my
+        passion for programming and mathematics. I enrolled in the <span
+          className="font-medium">"Brainster" Fullstack Academy</span>{" "}
+        where I studied <span className="font-medium">full-stack web development</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem. My core stack
@@ -31,17 +30,15 @@ export default function About() {
         <span className="font-medium">
           React, Next.js, Laravel, MySQL
         </span>
-        . I am also familiar with TypeScript, C++, Java, Spring Boot, Postman, Bash. I am always looking to
-        learn new technologies. My favourite Operating System would definitely be Linux ( Ubuntu ). I am currently looking for a{" "}
-        <span className="font-medium">internship position</span> as a software developer. Hopefully <span className="font-medium">full-time position</span>.
+        . I am also familiar with the TypeScript and C++ programming languages and various development tools such as Postman, Bash. Furthermore, I have extensive experience in Linux based operating systems such as Ubuntu and Manjaro. As a student, I am always looking to
+        learn new technologies.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy experimenting with physics and chemistry, watching movies, and cooking. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning{" "}
-        <span className="font-medium">Java and Spring Boot and Python for Data Science and Machine Learning</span>. I'm also
-        learning how to play the bass guitar.
+        <span className="italic">When I'm not coding</span>, I enjoy experimenting with physics and chemistry, watching movies, and cooking.
+        Additionally, I am attempting
+        to enrich my knowledge of <span className="font-medium">web development</span> by studying <span className="font-medium">Java and Spring Boot</span> as well as develop my understanding of <span className="font-medium">Data Science and Machine Learning</span> {" "}
+        <span className="font-medium">Python</span>.
       </p>
     </motion.section>
   );
