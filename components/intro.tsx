@@ -64,9 +64,7 @@ export default function Intro() {
             initial={{opacity: 0, y: 100}}
             animate={{opacity: 1, y: 0}}
         >
-          {/* eslint-disable-next-line react/no-unescaped-entities */}
           <span className="font-bold">Hello, I'm David.</span> Currently pursuing a major in{" "}
-          {/*<span className="font-bold">student at FINKI</span> with{" "}*/}
           <span className="font-bold">Software Engineering</span>. I enjoy
           building <span className="italic">sites & apps</span> using <motion.span
             className="underline font-bold bg-gradient-to-r from-blue-400 via-rose-600 to-lime-500 text-transparent bg-clip-text"
@@ -102,7 +100,8 @@ export default function Intro() {
           </Link>
 
           <a
-              className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
+              className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10
+              pointer-events-none"
               href="/David_Davitkovski_CV.pdf"
               download
           >
