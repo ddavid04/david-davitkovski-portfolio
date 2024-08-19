@@ -65,9 +65,9 @@ export default function Intro() {
             animate={{opacity: 1, y: 0}}
         >
           {/* eslint-disable-next-line react/no-unescaped-entities */}
-          <span className="font-bold">Hello, I'm David.</span> I'm a{" "}
-          <span className="font-bold">student at FINKI</span> with{" "}
-          <span className="font-bold">Software Engineering</span> major. I enjoy
+          <span className="font-bold">Hello, I'm David.</span> Currently pursuing a major in{" "}
+          {/*<span className="font-bold">student at FINKI</span> with{" "}*/}
+          <span className="font-bold">Software Engineering</span>. I enjoy
           building <span className="italic">sites & apps</span> using <motion.span
             className="underline font-bold bg-gradient-to-r from-blue-400 via-rose-600 to-lime-500 text-transparent bg-clip-text"
             initial={{scale: 0, opacity: 0}}
