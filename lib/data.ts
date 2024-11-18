@@ -72,7 +72,7 @@ export const experiencesData = [
     {
         title: "Bachelor of Software Engineering",
         location: "FINKI, Skopje, MK",
-        description: "I am currently pursuing a degree in Software Engineering at the Faculty of Computer Science and Engineering. I'm passionate about deepening my knowledge in machine learning and data science, with a goal of exploring and advancing in these fields.",
+        description: "I am currently pursuing a degree in Software Engineering at the Faculty of Computer Science and Engineering. I'm passionate about deepening my knowledge in Artificial Intelligence, Machine Learning and Data Science, with a goal of exploring and advancing in these fields.",
         icon: React.createElement(FcConferenceCall),
         date: "2023 - Future 2027",
     },
