@@ -1,6 +1,7 @@
 import React from "react";
 import meetupsImg from "@/public/meetups.png";
-import sharecipeImg from "@/public/sharecipe.png";
+import cloudStorageImg from "@/public/cloud-storage-app.png"
+import qrImg from "@/public/qr-generator.png"
 import {
     FcCommandLine,
     FcConferenceCall,
@@ -99,13 +100,26 @@ export const projectsData = [
             "This is my first NextJS project and also the first time encountering with MongoDB",
         tags: ["React", "Next.js", "MongoDB"],
         imageUrl: meetupsImg,
+        githubUrl: "https://github.com/ddavid04/nextjs-mongodb-webpage",
+        webUrl: "https://nextjs-mongodb-webpage.vercel.app/"
     },
     {
-        title: "Share Recipes app",
+        title: "Image and Video Cloud Storage",
         description:
-            "This is my fullstack apps for sharing recipes and storing the data in MongoDB and the images in Amazon S3",
-        tags: ["React", "Next.js", "MongoDB", "Amazon S3"],
-        imageUrl: sharecipeImg,
+            "This is my fully functional cloud storage for images and videos with implemented AI",
+        tags: ["React", "Next.js", "Cloudinary"],
+        imageUrl: cloudStorageImg,
+        githubUrl: "https://github.com/ddavid04/Cloud-Storage",
+        webUrl: "https://davids-image-cloud-storage.vercel.app/"
+    },
+    {
+        title: "Text to QR image generator",
+        description:
+            "This is a simple QR code generator from text. Perfect for URLs",
+        tags: ["HTML", "CSS", "Javascript"],
+        imageUrl: qrImg,
+        githubUrl: "https://github.com/ddavid04/qr-generator",
+        webUrl: "https://ddavid04.github.io/qr-generator/"
     },
 ] as const;
 
@@ -124,9 +138,20 @@ export const skillsData = [
     "Laravel",
     "Spring Boot",
     "MySQL",
+    "PostgreSQL",
     "Java",
     "C++",
     "Bash",
     "Python",
-    "AWS S3"
+    "AWS S3",
+    "Pandas",
+    "Numpy",
+    "Matplotlib",
+    "Plotly",
+    "Seaborn",
+    "Scikit-learn",
+    "Keras",
+    "Tensorflow",
+    "R",
+    "Anaconda"
 ] as const;
