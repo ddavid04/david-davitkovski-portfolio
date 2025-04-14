@@ -1,7 +1,10 @@
 import React from "react";
-import meetupsImg from "@/public/meetups.png";
-import cloudStorageImg from "@/public/cloud-storage-app.png"
-import qrImg from "@/public/qr-generator.png"
+import meetupsImg from "@/public/01_meetups.png";
+import cloudStorageImg from "@/public/02_cloud-storage-app.png"
+import qrImg from "@/public/03_qr-generator.png"
+import memoryImg from "@/public/04_memory-game.png"
+import drumImg from "@/public/05_drum-kit.png"
+
 import {
     FcCommandLine,
     FcConferenceCall,
@@ -121,6 +124,25 @@ export const projectsData = [
         githubUrl: "https://github.com/ddavid04/qr-generator",
         webUrl: "https://ddavid04.github.io/qr-generator/"
     },
+    {
+        title: "Simple Memory Game",
+        description:
+            "JavaScript memory game to test your intelligence",
+        tags: ["HTML", "CSS", "Javascript"],
+        imageUrl: memoryImg,
+        githubUrl: "https://github.com/ddavid04/Memory-Game",
+        webUrl: "https://ddavid04.github.io/Memory-Game/"
+    },
+    {
+        title: "Interactive drum-kit app",
+        description:
+            "Just a drum-kit you could access on the go",
+        tags: ["HTML", "CSS", "Javascript"],
+        imageUrl: drumImg,
+        githubUrl: "https://github.com/ddavid04/Drum-Kit",
+        webUrl: "https://ddavid04.github.io/Drum-Kit/"
+    },
+
 ] as const;
 
 
