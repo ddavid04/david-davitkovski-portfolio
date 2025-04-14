@@ -76,7 +76,7 @@ export default function Project({
                                 rel="noopener noreferrer"
                                 className={"whitespace-nowrap tracking-wider bg-gradient-to-r from-lime-500 via-blue-500 to-fuchsia-600 text-transparent bg-clip-text font-bold"}
                             >
-                                Hosted website
+                                Jupyter Notebook
                             </Link> <NotebookText /></span>
                         ) : null}
                     </div>
