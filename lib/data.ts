@@ -4,6 +4,7 @@ import cloudStorageImg from "@/public/02_cloud-storage-app.png"
 import qrImg from "@/public/03_qr-generator.png"
 import memoryImg from "@/public/04_memory-game.png"
 import drumImg from "@/public/05_drum-kit.png"
+import jupyterImg from "@/public/06_ml-ds-projects.png"
 
 import {
     FcCommandLine,
@@ -98,13 +99,24 @@ export const experiencesData = [
 
 export const projectsData = [
     {
+        title: "Olympic Games Machine Learning Project",
+        description:
+            "A simple machine learning project that predicts how many medals will a country achieve on the olympic games.",
+        tags: ["Python", "Pandas", "Numpy", "Matplotlib", "Plotly", "Seaborn", "Scikit-learn"],
+        imageUrl: jupyterImg,
+        githubUrl: null,
+        webUrl: null,
+        notebookUrl: "https://github.com/ddavid04/Machine-Learning-Projects/blob/main/Olympic-Medals/Olympic_Medals_ML_Model.ipynb"
+    },
+    {
         title: "Meetups app",
         description:
-            "This is my first NextJS project and also the first time encountering with MongoDB",
+            "This is my first NextJS project and also the first time encountering with MongoDB.",
         tags: ["React", "Next.js", "MongoDB"],
         imageUrl: meetupsImg,
         githubUrl: "https://github.com/ddavid04/nextjs-mongodb-webpage",
-        webUrl: "https://nextjs-mongodb-webpage.vercel.app/"
+        webUrl: "https://nextjs-mongodb-webpage.vercel.app/",
+        notebookUrl: null,
     },
     {
         title: "Image and Video Cloud Storage",
@@ -113,7 +125,8 @@ export const projectsData = [
         tags: ["React", "Next.js", "Cloudinary"],
         imageUrl: cloudStorageImg,
         githubUrl: "https://github.com/ddavid04/Cloud-Storage",
-        webUrl: "https://davids-image-cloud-storage.vercel.app/"
+        webUrl: "https://davids-image-cloud-storage.vercel.app/",
+        notebookUrl: null,
     },
     {
         title: "Text to QR image generator",
@@ -122,7 +135,8 @@ export const projectsData = [
         tags: ["HTML", "CSS", "Javascript"],
         imageUrl: qrImg,
         githubUrl: "https://github.com/ddavid04/qr-generator",
-        webUrl: "https://ddavid04.github.io/qr-generator/"
+        webUrl: "https://ddavid04.github.io/qr-generator/",
+        notebookUrl: null,
     },
     {
         title: "Simple Memory Game",
@@ -131,7 +145,8 @@ export const projectsData = [
         tags: ["HTML", "CSS", "Javascript"],
         imageUrl: memoryImg,
         githubUrl: "https://github.com/ddavid04/Memory-Game",
-        webUrl: "https://ddavid04.github.io/Memory-Game/"
+        webUrl: "https://ddavid04.github.io/Memory-Game/",
+        notebookUrl: null,
     },
     {
         title: "Interactive drum-kit app",
@@ -140,7 +155,8 @@ export const projectsData = [
         tags: ["HTML", "CSS", "Javascript"],
         imageUrl: drumImg,
         githubUrl: "https://github.com/ddavid04/Drum-Kit",
-        webUrl: "https://ddavid04.github.io/Drum-Kit/"
+        webUrl: "https://ddavid04.github.io/Drum-Kit/",
+        notebookUrl: null,
     },
 
 ] as const;

@@ -7,6 +7,7 @@ import {motion, useScroll, useTransform} from "framer-motion";
 import Link from "next/link";
 import {FaGithubSquare} from "react-icons/fa";
 import {CgWebsite} from "react-icons/cg";
+import {NotebookText} from "lucide-react"
 
 type ProjectProps = (typeof projectsData)[number];
 
@@ -16,7 +17,8 @@ export default function Project({
                                     tags,
                                     imageUrl,
                                     githubUrl,
-                                    webUrl
+                                    webUrl,
+                                    notebookUrl
                                 }: ProjectProps) {
     const ref = useRef<HTMLDivElement>(null);
     const {scrollYProgress} = useScroll({
@@ -66,6 +68,16 @@ export default function Project({
                             >
                                 Hosted website
                             </Link> <CgWebsite /></span>
+                        ) : null}
+                        {notebookUrl ? (
+                            <span className={'dark:bg-black/[0.7] hover:bg-blue-100 bg-gray-100 border-2 border-blue-200 hover:dark:border-blue-400 rounded-full px-4 py-2 flex items-center gap-2'}><Link
+                                href={notebookUrl}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className={"whitespace-nowrap tracking-wider bg-gradient-to-r from-lime-500 via-blue-500 to-fuchsia-600 text-transparent bg-clip-text font-bold"}
+                            >
+                                Hosted website
+                            </Link> <NotebookText /></span>
                         ) : null}
                     </div>
                     <ul className="flex flex-wrap mt-4 gap-2 my-4">
