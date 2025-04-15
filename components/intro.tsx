@@ -99,23 +99,25 @@ export default function Intro() {
             >
                 <Link
                     href="#contact"
-                    className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+                    className="border-2 border-blue-200 hover:dark:border-blue-400 group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition hover:bg-gradient-to-t hover:from-green-500 hover:via-cyan-400 hover:to-indigo-400 hover:text-transparent hover:bg-clip-text"
                     onClick={() => {
                         setActiveSection("Contact");
                         setTimeOfLastClick(Date.now());
                     }}
                 >
-                    <span className={"hover:bg-gradient-to-t hover:from-green-500 hover:via-cyan-400 hover:to-indigo-400 hover:text-transparent hover:bg-clip-text"}>Contact me here{" "}</span>
-                    <BsArrowDown className="opacity-70 group-hover:translate-x-1 transition"/>
+                    <span
+                        className={""}>Contact me here{" "}</span>
+                    <BsArrowDown className="opacity-70 group-hover:translate-x-1 transition text-white group-hover:scale-150" />
                 </Link>
 
                 <a
-                    className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
+                    className="group hover:bg-blue-100 bg-gray-100 border-2 border-blue-200 hover:dark:border-blue-400 px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer dark:bg-white/10 hover:bg-gradient-to-t hover:from-yellow-500 hover:via-amber-500 hover:to-rose-600 hover:text-transparent hover:bg-clip-text"
                     href="/CV_David_Davitkovski.pdf"
                     download
                 >
-                    <span className={"hover:bg-gradient-to-t hover:from-yellow-500 hover:via-amber-500 hover:to-rose-600 hover:text-transparent hover:bg-clip-text"}>Download My CV{" "}</span>
-                    <HiDownload className="opacity-60 group-hover:translate-y-1 transition"/>
+                    <span
+                        className={""}>Download My CV{" "}</span>
+                    <HiDownload className="opacity-60 transition text-white group-hover:scale-150"/>
                 </a>
 
                 {/*<a*/}
@@ -127,11 +129,11 @@ export default function Intro() {
                 {/*</a>*/}
 
                 <a
-                    className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white"
+                    className="hover:bg-blue-100 bg-gray-100 border-2 border-blue-200 hover:dark:border-blue-400 p-4 text-gray-700 flex items-center gap-2 text-[1.4rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer dark:bg-white/10 dark:text-white"
                     href="https://github.com/ddavid04"
                     target="_blank"
                 >
-                    <FaGithubSquare/>
+                    <FaGithubSquare className="group-hover:translate-y-1 transition group-hover:scale-150"/>
                 </a>
             </motion.div>
         </section>

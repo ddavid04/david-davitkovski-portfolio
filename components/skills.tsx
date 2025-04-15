@@ -112,9 +112,7 @@ function SkillItem({ skill, index }: { skill: string; index: number }) {
             }}
             custom={index}
             onMouseLeave={() => setHoveredIndex(null)}
-            // onHoverStart={{
-            //
-            // }}
+
         >
             <div className="flex">
                 {skill.split('').map((char, charIndex) => {
