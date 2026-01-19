@@ -102,57 +102,7 @@ export const projectsData = [
         githubUrl: null,
         webUrl: null,
         notebookUrl: "https://github.com/ddavid04/Machine-Learning-Projects/blob/main/Olympic-Medals/Olympic_Medals_ML_Model.ipynb"
-    },
-    // {
-    //     title: "Meetups app",
-    //     description:
-    //         "This is my first NextJS project and also the first time encountering with MongoDB.",
-    //     tags: ["React", "Next.js", "MongoDB"],
-    //     imageUrl: meetupsImg,
-    //     githubUrl: "https://github.com/ddavid04/nextjs-mongodb-webpage",
-    //     webUrl: "https://nextjs-mongodb-webpage.vercel.app/",
-    //     notebookUrl: null,
-    // },
-    {
-        title: "Image and Video Cloud Storage",
-        description:
-            "This is my fully functional cloud storage for images and videos with implemented AI",
-        tags: ["React", "Next.js", "Cloudinary"],
-        imageUrl: cloudStorageImg,
-        githubUrl: "https://github.com/ddavid04/Cloud-Storage",
-        webUrl: "https://davids-image-cloud-storage.vercel.app/",
-        notebookUrl: null,
-    },
-    // {
-    //     title: "Text to QR image generator",
-    //     description:
-    //         "This is a simple QR code generator from text. Perfect for URLs",
-    //     tags: ["HTML", "CSS", "Javascript"],
-    //     imageUrl: qrImg,
-    //     githubUrl: "https://github.com/ddavid04/qr-generator",
-    //     webUrl: "https://ddavid04.github.io/qr-generator/",
-    //     notebookUrl: null,
-    // },
-    // {
-    //     title: "Simple Memory Game",
-    //     description:
-    //         "JavaScript memory game to test your intelligence",
-    //     tags: ["HTML", "CSS", "Javascript"],
-    //     imageUrl: memoryImg,
-    //     githubUrl: "https://github.com/ddavid04/Memory-Game",
-    //     webUrl: "https://ddavid04.github.io/Memory-Game/",
-    //     notebookUrl: null,
-    // },
-    // {
-    //     title: "Interactive drum-kit app",
-    //     description:
-    //         "Just a drum-kit you could access on the go",
-    //     tags: ["HTML", "CSS", "Javascript"],
-    //     imageUrl: drumImg,
-    //     githubUrl: "https://github.com/ddavid04/Drum-Kit",
-    //     webUrl: "https://ddavid04.github.io/Drum-Kit/",
-    //     notebookUrl: null,
-    // },
+    }
 
 ] as const;
 
@@ -173,6 +123,6 @@ export const skillsData = [
     "Next.js",
     "Git",
     "Tailwind",
-    "MySQL",
+    "SQL",
     "PostgreSQL"
 ] as const;
