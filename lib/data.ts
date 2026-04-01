@@ -1,14 +1,9 @@
 import React from "react";
-import meetupsImg from "@/public/01_meetups.png";
-import cloudStorageImg from "@/public/02_cloud-storage-app.png"
-import qrImg from "@/public/03_qr-generator.png"
-import memoryImg from "@/public/04_memory-game.png"
-import drumImg from "@/public/05_drum-kit.png"
 import jupyterImg from "@/public/06_ml-ds-projects.png"
+import trackerImg from "@/public/07-finance-tracker.png"
 
 import {
     FcCommandLine,
-    FcConferenceCall,
     FcGraduationCap,
     FcLinux,
     FcReading, FcRegisteredTrademark
@@ -93,6 +88,15 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+    {
+        title: "Finance Tracker Project",
+        description: "Simple finance tracker project, for managing personal finances and track incomes and expenses." + "** You need to contact me in order for me give you access to an account so you can try the app out **",
+        tags: ["NextJs", "Supabase", "Tailwindcss", "Vercel"],
+        imageUrl: trackerImg,
+        githubUrl: null,
+        notebookUrl: null,
+        webUrl: "https://finance-tracker-psi-ebon.vercel.app/"
+    },
     {
         title: "Olympic Games Machine Learning Project",
         description:
