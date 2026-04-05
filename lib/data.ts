@@ -95,7 +95,7 @@ export const projectsData = [
         imageUrl: trackerImg,
         githubUrl: null,
         notebookUrl: null,
-        webUrl: "https://finance-tracker-psi-ebon.vercel.app/"
+        webUrl: "https://easy-finance-tracker-navy.vercel.app/"
     },
     {
         title: "Olympic Games Machine Learning Project",
